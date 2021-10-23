@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'digimon_model.dart';
 import 'dart:async';
 
+
 class DigimonDetailPage extends StatefulWidget {
   final Digimon digimon;
   DigimonDetailPage(this.digimon);

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-
 import 'digimon_model.dart';
 import 'digimon_list.dart';
 import 'new_digimon_form.dart';

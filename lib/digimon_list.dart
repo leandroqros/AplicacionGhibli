@@ -1,6 +1,5 @@
 import 'package:digimon_app/digimon_card.dart';
 import 'package:flutter/material.dart';
-
 import 'digimon_model.dart';
 
 class DigimonList extends StatelessWidget {

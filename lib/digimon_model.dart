@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:async';
 
+
 class Digimon {
   final String name;
   String imageUrl;

@@ -2,6 +2,7 @@ import 'package:digimon_app/digimon_model.dart';
 import 'digimon_detail_page.dart';
 import 'package:flutter/material.dart';
 
+
 class DigimonCard extends StatefulWidget {
   final Digimon digimon;
 
