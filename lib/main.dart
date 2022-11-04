@@ -28,10 +28,16 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List<Digimon> initialDigimons = []..add(Digimon('Gatomon'))..add(Digimon('Gomamon'))..add(Digimon('Leomon'));
+  List<Digimon> initialDigimons = []
+    ..add(Digimon('El castillo en el cielo'))
+    ..add(Digimon('Mi vecino Totoro'))
+    ..add(Digimon('El viaje de Chihiro'))
+    ..add(Digimon('Castillo ambulante'))
+    ..add(Digimon('Cuentos de terramar'));
 
   Future _showNewDigimonForm() async {
-    Digimon newDigimon = await Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) {
+    Digimon newDigimon = await Navigator.of(context)
+        .push(MaterialPageRoute(builder: (BuildContext context) {
       return AddDigimonFormPage();
     }));
     //print(newDigimon);
